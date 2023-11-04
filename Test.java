@@ -1,12 +1,12 @@
 class Test
-1.java is programming langauge, whic is used to develop the software.
+1.java is programming langauge, which is used to develop the software.
   javac is a compiler when the code end it compile the code 
 2.jdk[java development kite]
 
   JRE.[java run time enviroment]
    this is whole responsible for compile   the file.it consist of libraries.
 
-   JVM[java vertual machin]
+   JVM[java virtual machin]
    it is used to conver the java code into byte code
    byte code into java code(.class)
  java virtual machin . it is whole responsible for exicute the fil.
