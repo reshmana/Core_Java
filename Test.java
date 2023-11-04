@@ -120,12 +120,14 @@ class Test
           length arrey.[6]=7;
            
 
-          System.out.printl("arrey length:"+[i]);
+          System.out.printl("givem arrey index is:"+length arrey);
 }
      }       
                
 
-
+17 Method is collection of statement whic will get exicuted when it is called or invoked.
+    method overloading: If a class has multiple methods having same name but different in parameters, it is known as Method Overloading.
+	  
      
 
 
