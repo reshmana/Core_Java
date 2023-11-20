@@ -10,12 +10,14 @@ double Cost;
 {
 System.out.println("KeyBoard is created...");
 this.Brand=Brand;
+System.out.println("the brand of keyboard:"+brand);
 }
 KeyBoard(String brand,String colour)
 {
 System.out.println("KeyBoard is created with double parameters");
 this.Brand=Brand;
 this.Colour=Colour;
+System.out.println("constructor with args:"+brand+","+color);
 }
 
 KeyBoard(String Brand, String Colour,int NoOfKeys){
