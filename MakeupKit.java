@@ -18,7 +18,7 @@ System.out.println("MakeupKit is started double parameters");
 this.Brand=Brand;
 this.ExpiryDate=ExpiryDate;
 }
-MakeupKit(String Brand,long ExpiryDate,String[]Items)
+MakeupKit(String Brand,long ExpiryDate,int Rting)
 {super();
 System.out.println("MakeupKit is started with 3 parameters");
 this.Brand=Brand;

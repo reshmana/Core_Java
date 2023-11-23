@@ -2,7 +2,7 @@ class Tv
 {
 	String display;
 	Speaker speaker;
-	
+	  
 	
 	Tv(String display)
 	{

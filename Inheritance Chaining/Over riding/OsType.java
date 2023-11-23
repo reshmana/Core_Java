@@ -1,0 +1,4 @@
+enum OsType{
+
+LINUX,WINDOWS,RTOS,ANDRIODS;
+}

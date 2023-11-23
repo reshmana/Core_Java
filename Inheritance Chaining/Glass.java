@@ -1,10 +1,10 @@
 class Glass{
 	
-	double length;
-	boolean thickness;
-	GlassType type;
-	String usage;
-	String brand;
+	double length;//const
+	boolean thickness;//const
+	GlassType type;//enum
+	String usage;//setter
+	String brand;//setter
 	
 	Glass(double length,boolean thickness){
 		

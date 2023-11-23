@@ -1,6 +1,6 @@
 class MachineStarter{
 	
-	public static void main(String... machines){
+	public static void main(String[] machines){
 		
 		System.out.println("Starting main in MachineStarter");
 		
