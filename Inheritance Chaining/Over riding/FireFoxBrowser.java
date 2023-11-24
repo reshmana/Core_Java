@@ -1,8 +1,8 @@
-class FireFoxBrowser is Browser{
+class FireFoxBrowser extends Browser{
 
     FireFoxBrowser(String name,AppType type){
 		  super(name,type);
-		  System.out.println("running String app arg const in StandaloneApplication");
+		  System.out.println("running String app arg const in FireFoxBrowser");
 	  }
 	  
 	  void show(){

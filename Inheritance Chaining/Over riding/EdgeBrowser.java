@@ -1,4 +1,4 @@
-class EdgeBrowser extends Breowser{
+class EdgeBrowser extends Browser{
 
      EdgeBrowser(String name,AppType type){
 		  super(name,type);
@@ -17,7 +17,7 @@ class EdgeBrowser extends Breowser{
 		  displayInfo();
 	  }
 	  @Override
-	  void setting(){0
+	  void setting(){
 		System.out.println("running setting in browser");
 	}
 	@Override

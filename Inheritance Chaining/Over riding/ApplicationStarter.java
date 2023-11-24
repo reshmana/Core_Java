@@ -10,7 +10,7 @@ class ApplicationStarter{
 				 supportedBrowsers[2]="firfox";
 				 supportedBrowsers[3]="edge";
 		  
-        WebApplication webApplication=new WebApplication		  
+        WebApplication webApplication=new WebApplication("flipcart",AppType.SHOPPING);		  
 		     webApplication.setBrowser(supportedBrowsers);
 			 webApplication.Info(true);
 			 
@@ -35,7 +35,7 @@ class ApplicationStarter{
         
         MediaPlayer mediaPlayer=new MediaPlayer("prime",AppType.ENTERTAINMENT);		
 				mediaPlayer.setFavourites(favourites);
-				mediaPlayer.show(50,"64 & 32 bit",os.LINUX);
+				mediaPlayer.show();
 				
 		EdgeBrowser edgeBrowser=new EdgeBrowser("instagram",AppType.ENTERTAINMENT);
 

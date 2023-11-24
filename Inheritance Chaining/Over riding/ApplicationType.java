@@ -1,4 +1,0 @@
-enum ApplicationType{
-	
-	ENTERTAINMENT,COMMERTIAL,ECOMERCE,SHOPPING
-}
