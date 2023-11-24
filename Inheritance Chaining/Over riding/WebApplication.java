@@ -11,12 +11,15 @@ class WebApplication extends Application{
 	 void setBrowser(String[] supportBrowsers){
 		 this.supportedBrowsers=supportedBrowsers;
 		 System.out.println("running list of browsers");
+		 if(supportedBrowsers!=null){
 			 for(int index=0; index<this.supportedBrowsers.length; index++){
 				 
 				 String browser=supportBrowsers[index];
 				 System.out.println("supportBrowsers :"+browser);
 			 }
 		 }
+	 }
+		
 		 void Info(boolean free){
 			 this.free=free;
 			 System.out.println("browser is free:"+this.free);
